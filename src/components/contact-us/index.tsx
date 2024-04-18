@@ -23,7 +23,7 @@ const ContactUs = ({ setSelectedPage }: Props) => {
 
   const inputStyles = `mt-5 bg-primary-300 w-full rounded-lg px-5 py-3 placeholder-white`;
 
-  const onSubmit = async (e: any) => {
+  const onSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     const isValid = await trigger();
     if (!isValid) {
       e.preventDefault();
