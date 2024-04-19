@@ -62,8 +62,6 @@ This is a TypeScript-built fitness platform offers a seamless and interactive ex
    npm run dev
    ```
 
-### Form Submission in Contact page
-
 <!-- LICENSE -->
 
 ## License
