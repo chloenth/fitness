@@ -43,7 +43,7 @@ This is a TypeScript-built fitness platform offers a seamless and interactive ex
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/huongnguyen1709/pokepedia.git
+   git clone https://github.com/huongnguyen1709/fitness.git
    ```
 2. Install NPM packages
    ```sh
