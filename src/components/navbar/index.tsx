@@ -17,24 +17,24 @@ type Props = {
 const Navbar = ({ selectedPage, setSelectedPage, isTopOfPage }: Props) => {
   const [isMenuToggled, setIsMenuToggled] = useState(false);
 
-  const flexBetween = "flex items-center justify-between";
+  const flexAround = "flex items-center justify-around";
   const isAboveMediumScreens = useMediaQuery("(min-width: 1060px)");
   const navbarBackground = isTopOfPage ? "" : "bg-primary-100 drop-shadow";
 
   return (
     <nav>
       <div
-        className={`${navbarBackground} ${flexBetween} fixed top-0 z-30 w-full py-6`}
+        className={`${navbarBackground} ${flexAround} fixed top-0 z-30 w-full py-6`}
       >
-        <div className={`${flexBetween} mx-auto w-5/6`}>
-          <div className={`${flexBetween} w-full gap-16`}>
+        <div className={`${flexAround} mx-auto w-5/6`}>
+          <div className={`${flexAround} w-full gap-16`}>
             {/* Left Side */}
             <img src={Logo} alt="logo" />
 
             {/* Right Side */}
             {isAboveMediumScreens ? (
-              <div className={`${flexBetween} w-full`}>
-                <div className={`${flexBetween} w-full gap-8 text-sm`}>
+              <div className={`${flexAround} w-full`}>
+                <div className={`${flexAround} w-full gap-8 text-sm`}>
                   <PageLink
                     page="Home"
                     selectedPage={selectedPage}
@@ -59,7 +59,7 @@ const Navbar = ({ selectedPage, setSelectedPage, isTopOfPage }: Props) => {
                     setSelectedPage={setSelectedPage}
                   />
                 </div>
-                <div className={`${flexBetween} w-full gap-8`}>
+                <div className={`${flexAround} w-full gap-8`}>
                   <p>Sign In</p>
                   <ActionButton setSelectedPage={setSelectedPage}>
                     Become a Member
