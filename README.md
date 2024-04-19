@@ -77,6 +77,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 - [react-spinners](https://www.npmjs.com/package/react-spinners)
 - [@heroicons/react](https://www.npmjs.com/package/@heroicons/react)
 - [Google Fonts](https://fonts.google.com/)
+- [react-hook-form](https://www.npmjs.com/package/react-hook-form)
 - [Easy form endpoints for your forms submission](https://formsubmit.co/)
 - [Cloudflare for Deployment](https://pages.cloudflare.com/)
 
