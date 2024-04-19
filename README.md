@@ -6,24 +6,24 @@ This is a TypeScript-built fitness platform offers a seamless and interactive ex
 
 ### Key Features
 
-1. Type-Safe Code:
+1. **Type-Safe Code:**
 
 - Utilize TypeScript's type system to reduce runtime errors and ensure that components receive data in the expected format.
 
-2. Component-Based Architecture:
+2. **Component-Based Architecture:**
 
 - Develop the landing page using a component-based framework like React, where each section of the page is a separate, reusable component.
 
-3. Interactive Elements:
+3. **Interactive Elements:**
 
 - Implement interactive elements such as modals, dropdowns, and sliders that enhance user engagement, using TypeScript for better state management and predictability.
 
-4. Enhance user's navigation experience with beautifully smooth transitions and scrolling
+4. **Enhance user's navigation experience with beautifully smooth transitions and scrolling:**
 
 - Utilizes framer-motion to bring dynamic motion effects that make interactions lively and engaging
 - Additionally, react-anchor-smooth-scroll ensures that scrolling through the app is seamless and fluid, allowing user to effortlessly navigate between sections with elegance and ease."
 
-5. Visually appealing and highly responsive and customizable
+5. **Visually appealing and highly responsive and customizable:**
 
 - Rapidly design unique components without sacrificing performance by leveraging Tailwindcss
 
